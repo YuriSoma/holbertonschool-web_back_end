@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-''' Simple pagination '''
 import csv
 import math
-from typing import List, Tuple
+from typing import List
 
 
 class Server:
@@ -37,8 +36,6 @@ class Server:
             return self.__dataset[i[0]:i[1]]
 
 
-def index_range(page: int, page_size: int) -> Tuple[int, int]:
-    ''' De*f index range '''
-    index = page * page_size - page_size
-    index_1 = index + page_size
-    return (index, index_1)
+def index_range(page, page_size):
+    """ receives page number and page size """
+    return ((page - 1) * page_size, page * page_size)
