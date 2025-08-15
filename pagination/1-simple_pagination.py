@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
+''' Simple pagination '''
 import csv
 import math
-from typing import List
+from typing import List, 
 
 
 class Server:
