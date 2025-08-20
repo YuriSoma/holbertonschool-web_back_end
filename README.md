@@ -3,3 +3,4 @@ This is a repository for Holberton School projects:
 - Python - Async
 - Python - Async Comprehension
 - Pagination
+- ES6 Basics
