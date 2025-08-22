@@ -1,3 +1,4 @@
+// 9-student.js
 export class HolbertonClass {
   constructor(year, location) {
     this._year = year;
@@ -17,7 +18,7 @@ export class StudentHolberton {
   constructor(firstName, lastName, holbertonClass) {
     this._firstName = firstName;
     this._lastName = lastName;
-    this._holbertonClass = holbertonClass; // pass the correct HolbertonClass
+    this._holbertonClass = holbertonClass;
   }
 
   get fullName() {
