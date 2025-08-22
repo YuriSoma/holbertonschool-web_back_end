@@ -5,3 +5,4 @@ This is a repository for Holberton School projects:
 - Pagination
 - NoSQL
 - ES6 Basics
+- ES6 classes
