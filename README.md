@@ -6,3 +6,4 @@ This is a repository for Holberton School projects:
 - NoSQL
 - ES6 Basics
 - ES6 classes
+- ES6 data manipulation
