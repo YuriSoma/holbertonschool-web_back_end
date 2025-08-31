@@ -7,3 +7,4 @@ This is a repository for Holberton School projects:
 - ES6 Basics
 - ES6 classes
 - ES6 data manipulation
+- ES6 Promises
